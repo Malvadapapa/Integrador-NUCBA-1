@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro-Coders SOLUCIONES DIGITALES</title>
+    <meta property="og:image" content="https://i.im.ge/2022/07/09/upIqsp.png" />
+    <meta name="twitter:image:src" content="https://i.im.ge/2022/07/09/upIqsp.png">
+    <meta property="og:image:secure_url" content="https://i.im.ge/2022/07/09/upIqsp.png">
+    <meta property="og:image:alt" content="Software web">
+    <meta property="og:image:height" content="600">
+    <meta property="og:image:width" content="600">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d7a00b9964.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="logocoder.png">
+
+</head>
+
+<body>
+    <header class="headerindex">
+
+        <div class="header__iconContainer">
+            <a href="index.html"><img src="4.png" class="header__iconContainer-icon"></a>
+        </div>
+        <input type="checkbox" name="" id="check">
+        <nav class="header__navContainer">
+            <label for="check" class="cross">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </label>
+            <ul class="header__navContainer-ul">
+                <li><a href="galeria.html">NUESTROS DISEÑOS</a></li>
+                <li><a href="contactSection.html">CONTACTO</a></li>
+                <li><a href="sesion.html">INICIAR SESION</a></li>
+                <li><a href="regForm.html">CREAR CUENTA</a></li>
+            </ul>
+        </nav>
+        <label for="check" class="bars">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </label>
+    </header>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            let headerindex = document.querySelector("header");
+            headerindex.classList.toggle("abajo", window.scrollY > 500);
+        })
+    </script>
+
+    <section class="sectionherovideo" id="firstindexsection">
+        <div class="videocontainer">
+            <video src="assetsIndex/videoindex.mp4" autoplay muted loop></video>
+        </div>
+
+        <div class="herocontainer">
+            <div class="hero__leftcontainer">
+                <h2>
+                    <span>CREAMOS</span>
+                </h2>
+                <h2>
+                    SOLUCIONES DIGITALES
+                </h2>
+                <h3>
+                    Somos una empresa lider en el desarrollo de software web.
+                </h3>
+                <h3>
+                    Apostamos a la calidad profesional y a los mejores estándares de trabajo.
+                </h3>
+                <p>• Creamos tu Sitio Web a medida.</p>
+                <p>• Mejoramos tu presencia en Google.</p>
+                <p>• Mejoramos tu proceso productivo con soluciones agiles de bajo costo.</p>
+
+            </div>
+            <div class="hero__rightContainer">
+                <a href="#secondindexsection" class="hero__button">Comenzar!
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="ContactSectionIndex" id="secondindexsection">
+        <div class="formIndexcontainer">
+            <form class="formIndex">
+                <h2>Si así lo deseas nos comunicaremos contigo lo antes posible para brindarte asesoramiento
+                    personalizado</h2>
+                <p>Tambien puedes <span><a href="regForm.html"> Registrarte!</a></span> o bien <span><a
+                            href="sesion.html">Inicia Sesion!</a></span></p>
+                <label for="nombreIndex">Nombre:</label>
+                <input type="text" name="" id="nombreIndex">
+                <label for="mailIndex">Email:</label>
+                <input type="email" name="mailIndex" id="mailIndex">
+                <label for="telIndex">Telefono:</label>
+                <input type="text" name="telIndex" id="telIndex">
+                <div class="buttonsendcontainer">
+                    <button type="submit" class="buttonsend">Enviar!</button>
+                </div>
+            </form>
+        </div>
+        <div class="contactSection__img">
+            <img src="assetsIndex\metingsection.svg" alt="">
+        </div>
+<a href="#thirdsection">
+        <i class="fa fa-arrow-down" aria-hidden="true"></i>
+</a>
+    </section>
+<div id="thirdsection"></div>
+    <section class="ourworksection" >
+        <div class="ourworksection__containerLeft">
+            <div class="ourworksection__containerLeft-card">
+                <img src="assetsIndex/img1.svg">
+                <p>
+                    Tu Pagina Web se va a ver increíble en cualquier dispositivo adaptandose automaticamente.
+                </p>
+            </div>
+            <div class="ourworksection__containerLeft-card">
+                <img src="assetsIndex/img2.svg">
+                <p>
+                    El Diseño de su Página Web va a ser totalmente Personalizado, por lo que sera un Diseño Único.
+                </p>
+            </div>
+            <div class="ourworksection__containerLeft-card">
+                <img src="assetsIndex/img3.svg">
+                <p>
+                    Tu negocio se destacará en los resultados cuando busquen tu empresa en Google o Google Maps.
+
+                </p>
+            </div>
+            <div class="ourworksection__containerLeft-card">
+                <img src="assetsIndex/img4.svg">
+                <p>
+                    La seguridad de tus datos y la de tus clientes es una de nuestras pricipales prioridades.
+                </p>
+            </div>
+            <div class="ourworksection__containerLeft-card">
+                <img src="assetsIndex/img5.svg">
+                <p>
+                    Opcionalmente podemos incluir una Tienda Online para automatizar y potenciar tus ventas.
+                </p>
+            </div>
+            <div class="ourworksection__containerLeft-card">
+                <img src="assetsIndex/img6.svg">
+                <p>
+                    Nos encargaremos de que la integracion con las redes sociales sea Dinamica y Accesible
+                </p>
+            </div>
+
+        </div>
+        <div class="ourworksection__containerRight">
+            <h2>
+                PARA OBTENER <span> Grandes Resultados</span> NECESITAS <span> Estar a la Vanguardia</span>
+            </h2>
+            <p>
+                Introducete al mercado digital y potencializa tus resultados con nuestras webs 100% adaptadas a tus
+                necesidades
+            </p>
+        </div>
+    </section>
+
+    <section class="recomendationsSection">
+
+        <div class="contenedorsvg1">
+            <img src="assetsIndex/svgSuperior.svg" alt="">
+        </div>
+
+        <div class="recomendations__cardcontainer">
+            <div class="recomendations__card">
+                <img src="assetsIndex/card1.jpg" alt="">
+
+                <p>
+                     "Procoders tiene un equipo con una gran profesionalidad y rapidez a la hora de efectuar el trabajo,
+                    mi abuelita llamo para preguntar a que hora empezaba almorzando con Mirta Legrand y le respondieron
+                    en el acto. Recomendabe 100%. Gracias!"
+                </p>
+                <p class="nombrecards">
+                    Arctic Monkeys
+                </p>
+                
+                <a href="https://twitter.com/arcticmonkeys" target="_blank">@ArcticMonkeys</a>
+
+            </div>
+
+            <div class="recomendations__card">
+                <img src="assetsIndex/card2.jpg" alt="">
+
+                <p>"Durante todo el proceso de desarrollo Cristian ha mostrado gran profesionalidad, rápidez y mucho
+                    desempeño. Nuestra pagina web ahora esta mas buena que choripan despues de un baile de cuarteto!! ta
+                    chetasa" </p>
+                <p class="nombrecards">System Of A Down</p>
+                <a href="https://twitter.com/systemofadown" target="_blank">@systemofadown</a>
+            </div>
+
+            <div class="recomendations__card">
+
+                <img src="assetsIndex/card3.jpg" alt="">
+                <p>
+                    "Le mostre la pagina que me hizo Cristian a mi pez y se transformo en tiburon...
+                    Asombroso! Profesionales, eficientes, rápidos y flexibles en las necesidades, son las
+                    características que definen a este gran equipo."
+                </p>
+                <p class="nombrecards">
+                    Zedd
+                </p>
+                <a href="https://twitter.com/Zedd" target="_blank">@Zedd</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="myselfsection">
+        <div class="img__topSection">
+            <img src="assetsIndex/svgInferior2.svg" alt="">
+        </div>
+        <h2>
+            SOMOS ESPECIALISTAS EN EL DESARROLLO
+        </h2>
+        <h2>
+             DE APLICACIONES WEB A MEDIDA
+            </h2>
+        <h3>
+            DISEÑO WEB - PROGRAMACION - MARQUETING
+        </h3>
+        <h4>
+            PRO-Coders es una empresa gestionada por sus socios. Trabajamos haciendo lo que nos gusta, por lo que crecemos, aprendemos y nos vinculamos en un ambiente solidario y colaborativo.
+        </h4>
+
+        <div class="myselfCard">
+            <div class="myselfCardImgContainer">
+                <img src="assetsIndex/miFoto4.jpg" alt="" class="sec2-imgContainer-foto">
+            </div>
+            <div class="myselfCardTextContainer">
+                <p>
+                    Apostar hacia el futuro actualmente es adaptarse al gran motor de cambio de las nuevas tecnologías, hacia las nuevas necesidades de los clientes digitales, que demandan aplicaciones webs para mantenerse conectados con el mundo que los rodea.
+
+                </p>
+                <p>
+                    <span> Cristian Vargas</span>
+                </p>
+                <p>
+                    <span> Malvada Papa -Full Stack Dev</span>
+                </p>
+            </div>
+        </div>
+                                                                                        
+    </section>
+
+    <footer class="footer">
+        <p>Copyright © 2022 &lt;Pro-coders/&gt; | Design By <span> Malvada Papa</span> Cordoba - Argentina</p>
+    </footer>
+
+
+</body>
+
+</html>
